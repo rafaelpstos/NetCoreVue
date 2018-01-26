@@ -1,0 +1,17 @@
+﻿<template>
+        <form class="form-signin">
+            <label for="inputEmail" class="sr-only">Email address</label>
+            <input type="text" v-model="user" class="form-control" placeholder="Username" />
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" v-model="pass" class="form-control" placeholder="Senha" />
+            <div class="checkbox mb-3">
+                <label>
+                    <input value="remember-me" type="checkbox"> Remember me
+                </label>
+            </div>
+            <button class="btn btn-lg btn-primary btn-block" type="button" @click="Login">Sign in</button>
+            <p class="mt-5 mb-3 text-muted">© 2017-2018</p>
+        </form>
+</template>
+
+<script src="./login.ts"></script>

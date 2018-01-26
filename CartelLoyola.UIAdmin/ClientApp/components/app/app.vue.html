@@ -1,0 +1,28 @@
+﻿<template>
+    <div id='app-root'>
+        <nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+            <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">Cartel Loyola</a>
+            <input class="form-control form-control-dark w-100" placeholder="Search" aria-label="Search" type="text">
+            <ul class="navbar-nav px-3">
+                <li class="nav-item text-nowrap">
+                    <a class="nav-link" href="#">Sign out</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-3 left_col navbar-fixed-top">
+                    <menu-component />
+                </div>
+                <!-- /sidebar menu -->
+                <main class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4" role="main">
+                    <router-view></router-view>
+                </main>
+            </div>
+        </div>
+    </div>
+</template>
+
+<script src="./app.ts"></script>
+
+

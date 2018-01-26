@@ -1,0 +1,34 @@
+﻿<template>
+    <div>
+        <nav class="navbar">
+            <h4>Cadastro de produto</h4>
+        </nav>
+
+        <hr />
+        <div class="row">
+            <div class="col-lg-7">
+                <form enctype="multipart/form-data" novalidate>
+                    <div class="form-group">
+                        <label>Nome do Produto</label>
+                        <input type="text" v-model="nome" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <label>Descrição do Produto</label>
+                        <input type="text" v-model="descricao" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                        <input type="file" multiple @change="Upload" :name="files" accept="image/*" class="form-control-file" />
+                    </div>
+                </form>
+
+                <button @click="SalvarProduto" class="btn btn-primary">Salvar</button>
+                <router-link :to="'/produto'" class="btn  btn-outline-secondary"> cancelar </router-link>
+            </div>
+            <div class="col-lg-5">
+                <img class="rounded img-fluid" :src="imagem" />
+            </div>
+        </div>
+    </div>
+</template>
+
+<script src="./cadastrar.ts"></script>

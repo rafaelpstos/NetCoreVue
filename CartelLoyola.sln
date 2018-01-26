@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartelLoyola.UI", "CartelLoyola.UI\CartelLoyola.UI.csproj", "{08A82195-B644-45B8-879D-DA3DEB635E33}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartelLoyola.Domain", "CartelLoyola.Domain\CartelLoyola.Domain.csproj", "{D7357E56-69E3-4151-9ECD-9C00D843E20C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartelLoyola.Repository", "CartelLoyola.Repository\CartelLoyola.Repository.csproj", "{D2C40859-93F5-4309-8EA3-A7AA8E65B317}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartelLoyola.Service", "CartelLoyola.Service\CartelLoyola.Service.csproj", "{765BF099-E0EA-4F64-8A95-BB5DA04149B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CartelLoyola.UIAdmin", "CartelLoyola.UIAdmin\CartelLoyola.UIAdmin.csproj", "{22002A62-4913-4BFA-BC6C-AF9E23AA8226}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08A82195-B644-45B8-879D-DA3DEB635E33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08A82195-B644-45B8-879D-DA3DEB635E33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08A82195-B644-45B8-879D-DA3DEB635E33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08A82195-B644-45B8-879D-DA3DEB635E33}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7357E56-69E3-4151-9ECD-9C00D843E20C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7357E56-69E3-4151-9ECD-9C00D843E20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7357E56-69E3-4151-9ECD-9C00D843E20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7357E56-69E3-4151-9ECD-9C00D843E20C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2C40859-93F5-4309-8EA3-A7AA8E65B317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2C40859-93F5-4309-8EA3-A7AA8E65B317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2C40859-93F5-4309-8EA3-A7AA8E65B317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2C40859-93F5-4309-8EA3-A7AA8E65B317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{765BF099-E0EA-4F64-8A95-BB5DA04149B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{765BF099-E0EA-4F64-8A95-BB5DA04149B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{765BF099-E0EA-4F64-8A95-BB5DA04149B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{765BF099-E0EA-4F64-8A95-BB5DA04149B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22002A62-4913-4BFA-BC6C-AF9E23AA8226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22002A62-4913-4BFA-BC6C-AF9E23AA8226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22002A62-4913-4BFA-BC6C-AF9E23AA8226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22002A62-4913-4BFA-BC6C-AF9E23AA8226}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F621EA78-E871-4AD5-85F4-31D866EC6677}
+	EndGlobalSection
+EndGlobal

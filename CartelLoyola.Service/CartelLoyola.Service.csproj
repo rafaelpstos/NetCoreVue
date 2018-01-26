@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CartelLoyola.Domain\CartelLoyola.Domain.csproj" />
+    <ProjectReference Include="..\CartelLoyola.Repository\CartelLoyola.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
